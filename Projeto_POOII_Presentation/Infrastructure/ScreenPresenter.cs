@@ -29,23 +29,7 @@ namespace Projeto_POOII_Presentation.Infrastructure
             return response;
         }
 
-        /*public static int GetOption(
-            string input,
-            int initialMenu = 1,
-            int endMenu = 2,
-            string customMessage = null)
-        {
-            input = Console.ReadLine();
-            int response;
-            var messages = string.Empty;
-
-            while (!int.TryParse(input, out response) ||
-                !(response >= initialMenu && response <= endMenu))
-                messages = customMessage ?? "Opção Inválida";
-
-            return response;
-        }*/
-
+        
         public static double GetInput()
         {
             double response;

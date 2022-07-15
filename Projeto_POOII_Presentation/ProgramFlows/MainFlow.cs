@@ -21,7 +21,6 @@ namespace Projeto_POOII_Presentation.ProgramFlows
         {
             double value;
             ScreenPresenter.PrintMenu(Menu.OpenMenu);
-            //ScreenPresenter.GetOption(Menu.OpenMenu, 1, 2)
             var ChooseMenu = ScreenPresenter.GetOption();
             switch (ChooseMenu)
             {
